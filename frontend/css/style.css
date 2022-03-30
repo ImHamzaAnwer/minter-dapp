@@ -133,11 +133,28 @@ header .container {
 
 /* BUTTONS */
 
+.counter-btn{
+  padding: 5px !important;
+  border-radius: 100px;
+  height: 40px;
+  width: 40px;
+  color: #fff
+}
+
+.counter-number{
+  width: 85px;
+  height: 40px;
+  border: none;
+  background: #333;
+  color: #fff;
+}
+
 .btn {
   display: inline-block;
   padding: 10px 35px;
   background: var(--header-btn-color);
   border-radius: 10px !important;
+  border: none;
   color: #fff!important;
   font-size: 0.8rem;
   text-align: center;
@@ -283,7 +300,6 @@ section {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background-color: var(--accent-color);
   border-radius: 5px;
 }
 
