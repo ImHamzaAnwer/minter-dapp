@@ -462,16 +462,6 @@ section {
   }
 }
 
-.grid-card{
-  /* justify-content: center;
-  box-shadow: var(--card-shadow);
-  min-width: 190px;
-  align-self: center;
-  margin: 0.7% 0.5%;
-  height: 200px;
-  overflow: hidden; */
-}
-
 /* footer */
 
 .footer{
@@ -506,6 +496,9 @@ section {
     border-radius: 5px;
     padding: 3rem 2rem;
     margin: 0 auto;
+  }
+  .not-connected img{
+    display: none;
   }
   .countdown ul {
     display: grid;
