@@ -191,7 +191,7 @@ header .container {
   position: relative;
   background-color: var(--bg-color);
   border-radius: 5px;
-  border: 1.5px solid var(--accent-color);
+  /* border: 1.5px solid var(--accent-color); */
   box-shadow: var(--card-shadow);
   padding: 5rem;
   margin-bottom: 2rem;
@@ -299,7 +299,8 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 1.5rem 1rem;
+  border: 1px solid var(--font-color);
   border-radius: 5px;
 }
 
