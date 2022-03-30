@@ -135,7 +135,7 @@ header .container {
 
 .counter-btn{
   padding: 5px !important;
-  border-radius: 100px;
+  border-radius: 100px !important;
   height: 40px;
   width: 40px;
   color: #fff
@@ -143,9 +143,9 @@ header .container {
 
 .counter-number{
   width: 85px;
-  height: 40px;
+  height: 40px !important;
   border: none;
-  background: #333;
+  background: var(--bg-color) !important;
   color: #fff;
 }
 
